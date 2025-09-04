@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+  }
+  body{  
+    overflow-x: hidden;
+     font-family: 'Comfortaa', sans-serif; 
+ 
+  }
+  html { 
+    background: #202020; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+ 
+   
+   
+#logo{ 
+  width: 50%;
+  height: 50%;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+
+}
+.container{ 
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+ 
+}
+
+.price{ 
+  float: right;
+ }
+
+  #title{ 
+    font-family: 'Comfortaa', ;
+      font-size: 5rem;
+      text-align: center;
+  }
+
+#subtitle{ 
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Comfortaa', cursive;
+      font-size: 10vw;
+      color:#fff;
+      text-align: center;
+      text-decoration: underline;}
+
+
+.center{ 
+text-align:center;
+}
+
+.accordion {
+  font-family: 'Comfortaa', sans-serif; 
+  cursor: pointer;
+  padding: 18px;
+  position: relative;
+  left: 50%;
+  color:#fff;
+  transform: translate(-50%);
+  text-align: left;
+  text-align: center;
+  font-size: 2EM;
+  transition: 0.4s;
+  border-radius: 30px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid #805c2a;
+  margin-bottom: 1rem;
+  text-shadow: -1px 4px #000;
+}
+.panel {
+  width:70%;
+  padding: 0 48px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  left:50%;
+  transform: translate(-50%);
+  border: 4px solid #805c2a;
+  border-radius: 25px;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  font-size:COVER;
+  font-weight: bold;
+  transition: max-height 0.2s ease-out;
+}
+
+.list{ 
+  font-size: 1rem;
+    list-style: none;
+    margin: 0;
+    line-height: 2rem;
+  
+}
+
+
+.icons{ 
+  position: relative;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow{ 
+  text-align: center;
+  color:#fff;
+  text-decoration: underline;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+
+.happyhour{ 
+  text-align: center;
+font-family: comfortaa;
+line-height: 1.75rem;
+color: #fff;
+font-style: italic;
+overflow: hidden;
+}
+
+.atc{ 
+  text-align: center;
+  font-family: lobster , cursive;
+ 
+  color: #3a9b88;
+
+}
+.ingredients{ 
+  text-align: left;
+  font-family: comfortaa;
+  font-style: italic;
+  font-size: 13px;
+  line-height:1.5rem;
+  overflow: hidden;
+  color: #739EC9;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+.copyright{ 
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+}
+a.link{ 
+  color: #fff;
+}
+a:visited {
+  color: white;
+}
