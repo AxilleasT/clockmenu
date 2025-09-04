@@ -40,7 +40,7 @@
 
   #title{ 
     font-family: 'Comfortaa', ;
-      font-size: 3rem;
+      font-size: 2rem;
       text-align: center;
       COLOR:#FFF
   }
@@ -49,7 +49,7 @@
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
       font-family: 'Comfortaa', cursive;
-      font-size: 10vw;
+      font-size: 4rem;
       color:#fff;
       text-align: center;
       text-decoration: underline;}
@@ -69,7 +69,7 @@ text-align:center;
   transform: translate(-50%);
   text-align: left;
   text-align: center;
-  font-size: 2EM;
+  font-size: 1.5rem;
   transition: 0.4s;
   border-radius: 30px;
   background-color: Transparent;
